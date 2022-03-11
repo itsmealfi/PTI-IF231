@@ -1,0 +1,94 @@
+body{
+    font-family: arial;
+    font-size: 14px;
+}
+
+#logo{
+    font-family: "Comic Sans MS";
+    color: tomato;
+    text-shadow: 2px 2px 2px #000;
+}
+
+ul#nav{
+    margin: 0;
+    padding: 0;
+}
+
+ul#nav li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+ul#nav li a{
+    text-decoration: none;
+    padding: 10px 0;
+    color: deeppink;
+    font-weight: bold;
+}
+
+ul#nav li a:hover{
+    color: tomato;
+    border-bottom: 3px solid tomato;
+}
+
+table#cell{
+    border-collapse: collapse;
+}
+
+table#cell tr th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #ffb4c0;
+    color: black;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+table#cell tr:nth-child(2){
+    background-color: #efefef;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+table#cell tr td{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table#gambar tr td{
+    border: 20px solid gainsboro;
+}
+
+table#gambar tr td:hover{
+    border-color: deeppink;
+}
+
+input#nama{
+    background-color: yellow;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+button#daftarkan{
+    border: 2px solid #f57ab7;
+    border-radius: 15px;
+    background-color: #feb4c0;
+    color: #cf2555;
+    padding: 5px 7px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-shadow: black;
+    cursor: pointer;
+}
+
+button#daftarkan:hover{
+    color: white;
+    background-color: rgb(248, 38, 108);
+}
