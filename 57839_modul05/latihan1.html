@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Latihan 1</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<script>
+
+    nama = window.prompt("nama");
+    nilai = window.prompt("nilai");
+    alert(cekNilai(nilai));
+
+    function cekNilai(nilai) {
+        if(nilai >= 90) return "Score yang didapatkan adalah A+, Lulus";
+        else if(nilai >= 85) return "Score yang didapatkan adalah A, Lulus";
+        else if(nilai >= 80) return "Score yang didapatkan adalah A-, Lulus";
+        else if(nilai >= 75) return "Score yang didapatkan adalah B+, Lulus";
+        else if(nilai >= 70) return "Score yang didapatkan adalah B, Lulus";
+        else if(nilai >= 65) return "Score yang didapatkan adalah B-, Lulus";
+        else if(nilai >= 60) return "Score yang didapatkan adalah C+, Lulus";
+        else if(nilai >= 55) return "Score yang didapatkan adalah C, Lulus";
+        else if(nilai >= 50) return "Score yang didapatkan adalah C-, Lulus";
+        else if(nilai >= 45) return "Score yang didapatkan adalah D, Gagal";
+        else return "Score yang didapatkan adalah E, Gagal";
+    }
+
+</script>
+</body>
+</html>

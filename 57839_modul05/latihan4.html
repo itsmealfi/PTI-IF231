@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Latihan 4</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<script>
+
+    while(true) {
+        let pilih = window.prompt("luas/keliling?");
+        if(pilih !== "luas" && pilih !== "keliling") {
+            continue;
+        }
+  
+        panjang = parseInt(window.prompt("panjang"));
+        lebar = parseInt(window.prompt("lebar"));
+  
+        if(pilih === 'luas') {
+            hasil = panjang * lebar;
+        } else if(pilih === 'keliling') {
+            hasil = 2 * (panjang + lebar);
+          }
+        alert(hasil);
+        break;
+    }
+
+</script>
+</body>
+</html>
